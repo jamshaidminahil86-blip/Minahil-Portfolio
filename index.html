@@ -319,14 +319,11 @@ img { max-width: 100%; display: block; }
 .project-card { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
 .project-card > *:not(.project-thumb) { margin-left: 26px; margin-right: 26px; }
 .project-thumb {
-  height: 190px; display: flex; align-items: center; justify-content: center;
+  height: 170px; display: flex; align-items: center; justify-content: center;
   background: linear-gradient(135deg, rgba(139, 92, 246, 0.35), rgba(217, 70, 239, 0.15)), #1a1230;
   margin-bottom: 22px;
   transition: filter 0.4s;
 }
-.project-thumb { position: relative; overflow: hidden; }
-.project-thumb svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-.project-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .project-thumb span { font-family: var(--font-head); font-size: 3.4rem; font-weight: 800; color: rgba(255, 255, 255, 0.25); }
 .project-card:hover .project-thumb { filter: brightness(1.3); }
 .project-card h3 { font-family: var(--font-head); font-size: 1.15rem; margin-bottom: 8px; }
@@ -772,31 +769,7 @@ img { max-width: 100%; display: block; }
 
         <div class="projects-grid">
           <article class="card project-card reveal">
-            <div class="project-thumb">
-            <svg viewBox="0 0 660 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1b52"/><stop offset="1" stop-color="#120c24"/></linearGradient>
-                <linearGradient id="acA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
-                <radialGradient id="glA" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
-              </defs>
-              <rect width="660" height="200" fill="url(#bgA)"/>
-              <circle cx="330" cy="100" r="170" fill="url(#glA)"/>
-              <g fill="none" stroke="#c4b5fd" stroke-opacity="0.07"><path d="M0 50H660M0 100H660M0 150H660M110 0V200M220 0V200M330 0V200M440 0V200M550 0V200"/></g>
-<g transform="translate(330 100) scale(0.85) translate(-330 -100)">
-              <g>
-                <circle cx="330" cy="100" r="52" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="12"/>
-                <circle cx="330" cy="100" r="52" fill="none" stroke="url(#acA)" stroke-width="12" stroke-linecap="round" stroke-dasharray="230 327" transform="rotate(-90 330 100)"/>
-                <g transform="translate(330 100)" stroke="#ece9f6" stroke-width="5" stroke-linecap="round"><path d="M-17 0H17M-17 -10V10M17 -10V10M-24 -6V6M24 -6V6"/></g>
-                <g fill="url(#acA)"><rect x="150" y="110" width="22" height="50" rx="5" opacity="0.55"/><rect x="182" y="85" width="22" height="75" rx="5" opacity="0.75"/><rect x="214" y="65" width="22" height="95" rx="5"/><rect x="246" y="95" width="22" height="65" rx="5" opacity="0.65"/></g>
-                <path d="M400 150 L430 125 L460 138 L495 90 L530 105 L560 62" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M400 150 L430 125 L460 138 L495 90 L530 105 L560 62 V165 H400Z" fill="url(#acA)" opacity="0.18"/>
-                <circle cx="560" cy="62" r="6" fill="#ece9f6"/>
-                <rect x="400" y="38" width="64" height="10" rx="5" fill="#ffffff" opacity="0.18"/>
-                <rect x="150" y="38" width="64" height="10" rx="5" fill="#ffffff" opacity="0.18"/>
-              </g>
-            </g>
-            </svg>
-            <img data-img="fitness-tracker" alt="Fitness Tracker App screenshot" /></div>
+            <div class="project-thumb"><span>01</span></div>
             <h3>Fitness Tracker App</h3>
             <p>A web-based application that helps users monitor their daily fitness activities, track workouts, calculate calories burned, set fitness goals, and monitor their progress. It helps users maintain a healthy lifestyle through activity tracking and progress reports.</p>
             <div class="chips"><span>HTML</span><span>CSS</span><span>Vanilla JavaScript</span><span>Supabase Auth</span><span>localStorage</span><span>SVG Charts</span><span>PWA</span></div>
@@ -806,34 +779,7 @@ img { max-width: 100%; display: block; }
           </article>
 
           <article class="card project-card reveal">
-            <div class="project-thumb">
-            <svg viewBox="0 0 660 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="bgB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1b52"/><stop offset="1" stop-color="#120c24"/></linearGradient>
-                <linearGradient id="acB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
-                <radialGradient id="glB" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
-              </defs>
-              <rect width="660" height="200" fill="url(#bgB)"/>
-              <circle cx="330" cy="100" r="170" fill="url(#glB)"/>
-              <g fill="none" stroke="#c4b5fd" stroke-opacity="0.07"><path d="M0 50H660M0 100H660M0 150H660M110 0V200M220 0V200M330 0V200M440 0V200M550 0V200"/></g>
-<g transform="translate(330 100) scale(0.88) translate(-330 -100)">
-              <g>
-                <rect x="140" y="22" width="380" height="156" rx="14" fill="#151027" stroke="#c4b5fd" stroke-opacity="0.35"/>
-                <rect x="140" y="22" width="380" height="22" rx="14" fill="#1b1433"/>
-                <circle cx="158" cy="33" r="3.5" fill="#d946ef"/><circle cx="170" cy="33" r="3.5" fill="#8b5cf6"/><circle cx="182" cy="33" r="3.5" fill="#c4b5fd"/>
-                <rect x="140" y="44" width="52" height="134" fill="#1b1433"/>
-                <g fill="#c4b5fd" opacity="0.5"><rect x="152" y="58" width="28" height="7" rx="3.5"/><rect x="152" y="76" width="28" height="7" rx="3.5"/><rect x="152" y="94" width="28" height="7" rx="3.5"/></g>
-                <rect x="152" y="58" width="28" height="7" rx="3.5" fill="url(#acB)"/>
-                <g><rect x="204" y="56" width="92" height="42" rx="8" fill="#241a45"/><rect x="304" y="56" width="92" height="42" rx="8" fill="#241a45"/><rect x="404" y="56" width="104" height="42" rx="8" fill="#241a45"/></g>
-                <g fill="#ffffff" opacity="0.25"><rect x="214" y="64" width="34" height="6" rx="3"/><rect x="314" y="64" width="34" height="6" rx="3"/><rect x="414" y="64" width="34" height="6" rx="3"/></g>
-                <g fill="url(#acB)"><rect x="214" y="78" width="52" height="10" rx="5"/><rect x="314" y="78" width="40" height="10" rx="5"/><rect x="414" y="78" width="60" height="10" rx="5"/></g>
-                <g fill="url(#acB)"><rect x="210" y="146" width="18" height="24" rx="3" opacity="0.5"/><rect x="236" y="132" width="18" height="38" rx="3" opacity="0.7"/><rect x="262" y="120" width="18" height="50" rx="3"/><rect x="288" y="138" width="18" height="32" rx="3" opacity="0.6"/><rect x="314" y="112" width="18" height="58" rx="3"/><rect x="340" y="126" width="18" height="44" rx="3" opacity="0.75"/></g>
-                <g fill="#ffffff" opacity="0.18"><rect x="384" y="116" width="116" height="8" rx="4"/><rect x="384" y="134" width="96" height="8" rx="4"/><rect x="384" y="152" width="108" height="8" rx="4"/></g>
-              </g>
-              <g transform="translate(548 150)" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0H8L16 26H42L48 8H12"/><circle cx="20" cy="36" r="3.5" fill="#c4b5fd"/><circle cx="38" cy="36" r="3.5" fill="#c4b5fd"/></g>
-            </g>
-            </svg>
-            <img data-img="ecommerce-dashboard" alt="E-commerce Shop Dashboard screenshot" /></div>
+            <div class="project-thumb"><span>02</span></div>
             <h3>E-commerce Shop Dashboard</h3>
             <p>A web-based application that helps store owners manage products, orders, customers, sales, and inventory. It provides an organized interface to monitor business performance, track revenue, and manage daily store operations efficiently.</p>
             <div class="chips"><span>React</span><span>Vite</span><span>Tailwind CSS</span><span>Socket.IO</span><span>Lucide Icons</span><span>React Icons</span></div>
@@ -843,37 +789,7 @@ img { max-width: 100%; display: block; }
           </article>
 
           <article class="card project-card reveal">
-            <div class="project-thumb">
-            <svg viewBox="0 0 660 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="bgC" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1b52"/><stop offset="1" stop-color="#120c24"/></linearGradient>
-                <linearGradient id="acC" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
-                <radialGradient id="glC" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
-              </defs>
-              <rect width="660" height="200" fill="url(#bgC)"/>
-              <circle cx="330" cy="100" r="170" fill="url(#glC)"/>
-              <g fill="none" stroke="#c4b5fd" stroke-opacity="0.07"><path d="M0 50H660M0 100H660M0 150H660M110 0V200M220 0V200M330 0V200M440 0V200M550 0V200"/></g>
-<g transform="translate(330 100) scale(0.92) translate(-330 -100)">
-              <g>
-                <g transform="translate(150 54)">
-                  <rect x="0" y="86" width="120" height="22" rx="4" fill="url(#acC)"/>
-                  <rect x="10" y="62" width="104" height="22" rx="4" fill="#8b5cf6" opacity="0.8"/>
-                  <rect x="4" y="38" width="112" height="22" rx="4" fill="#c4b5fd" opacity="0.85"/>
-                  <rect x="14" y="14" width="96" height="22" rx="4" fill="#d946ef" opacity="0.8"/>
-                  <g fill="#120c24" opacity="0.45"><rect x="14" y="94" width="50" height="5" rx="2.5"/><rect x="22" y="70" width="44" height="5" rx="2.5"/><rect x="14" y="46" width="52" height="5" rx="2.5"/><rect x="24" y="22" width="40" height="5" rx="2.5"/></g>
-                </g>
-                <rect x="310" y="30" width="200" height="30" rx="15" fill="#241a45" stroke="#c4b5fd" stroke-opacity="0.4"/>
-                <circle cx="330" cy="45" r="7" fill="none" stroke="#c4b5fd" stroke-width="3"/><path d="M336 51L342 57" stroke="#c4b5fd" stroke-width="3" stroke-linecap="round"/>
-                <rect x="352" y="42" width="80" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
-                <g>
-                  <rect x="310" y="74" width="200" height="26" rx="7" fill="#241a45"/><rect x="310" y="108" width="200" height="26" rx="7" fill="#241a45"/><rect x="310" y="142" width="200" height="26" rx="7" fill="#241a45"/>
-                  <g fill="#ffffff" opacity="0.3"><rect x="322" y="84" width="84" height="6" rx="3"/><rect x="322" y="118" width="70" height="6" rx="3"/><rect x="322" y="152" width="94" height="6" rx="3"/></g>
-                  <g fill="url(#acC)"><rect x="440" y="81" width="60" height="12" rx="6"/><rect x="440" y="115" width="60" height="12" rx="6" opacity="0.7"/><rect x="440" y="149" width="60" height="12" rx="6" opacity="0.85"/></g>
-                </g>
-              </g>
-            </g>
-            </svg>
-            <img data-img="book-management" alt="Book Management App screenshot" /></div>
+            <div class="project-thumb"><span>03</span></div>
             <h3>Book Management App</h3>
             <p>A simple and interactive Book Management App built using Vanilla JavaScript, HTML, and CSS. It allows users to add, update, delete, sort, filter, and search books with a fully dynamic UI. Features include localStorage/sessionStorage support, JSON export, genre statistics with Map, and unique authors/genres using Set.</p>
             <div class="chips"><span>Vanilla JavaScript</span><span>HTML</span><span>CSS</span><span>localStorage</span><span>sessionStorage</span><span>JSON Export</span><span>Map</span><span>Set</span></div>
@@ -883,28 +799,7 @@ img { max-width: 100%; display: block; }
           </article>
 
           <article class="card project-card reveal">
-            <div class="project-thumb">
-            <svg viewBox="0 0 660 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="bgD" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1b52"/><stop offset="1" stop-color="#120c24"/></linearGradient>
-                <linearGradient id="acD" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
-                <radialGradient id="glD" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
-              </defs>
-              <rect width="660" height="200" fill="url(#bgD)"/>
-              <circle cx="330" cy="100" r="170" fill="url(#glD)"/>
-              <g fill="none" stroke="#c4b5fd" stroke-opacity="0.07"><path d="M0 50H660M0 100H660M0 150H660M110 0V200M220 0V200M330 0V200M440 0V200M550 0V200"/></g>
-              <g>
-                <rect x="250" y="20" width="160" height="160" rx="16" fill="#1b1433" stroke="#c4b5fd" stroke-opacity="0.4"/>
-                <circle cx="330" cy="62" r="19" fill="#c4b5fd" opacity="0.85"/>
-                <path d="M290 178 C290 128 306 106 330 106 C354 106 370 128 370 178Z" fill="#8b5cf6" opacity="0.5"/>
-                <path d="M302 112 L318 104 Q330 116 342 104 L358 112 L376 134 L358 144 L352 136 V176 H308 V136 L302 144 L284 134Z" fill="url(#acD)" stroke="#ece9f6" stroke-opacity="0.6" stroke-width="2" stroke-linejoin="round"/>
-                <g stroke="#ece9f6" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.6"><rect x="262" y="32" width="136" height="136" rx="10"/></g>
-              </g>
-              <g fill="#ece9f6"><path d="M450 52l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/><path d="M210 140l4 9 9 4-9 4-4 9-4-9-9-4 9-4z" opacity="0.8"/><path d="M470 130l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" opacity="0.6"/></g>
-              <g transform="translate(430 150)"><rect width="52" height="26" rx="13" fill="url(#acD)"/><text x="26" y="18" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="14" fill="#fff">AI</text></g>
-              <g transform="translate(176 54)" fill="none" stroke="#c4b5fd" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M30 8 C30 2 20 2 20 9 C20 14 30 14 30 20 L2 36 H58 L30 20"/></g>
-            </svg>
-            <img data-img="virtual-try-on" alt="Virtual Try-On screenshot" /></div>
+            <div class="project-thumb"><span>04</span></div>
             <h3>Virtual Try-On</h3>
             <p>A Flask-based AI-powered virtual try-on clothes project that allows users to upload a photo and preview how garments would look on them. Includes user authentication, admin dashboard, and Pixelcut API integration.</p>
             <div class="chips"><span>Python (Flask)</span><span>Pixelcut API</span><span>AI</span><span>User Authentication</span><span>Admin Dashboard</span></div>
@@ -1268,19 +1163,5 @@ $("#year").textContent = new Date().getFullYear();
 
 </script>
 
-<script>
-/* Project pictures: put screenshots in the "images" folder (see data-img names).
-   If a picture is missing, the project number is shown instead. */
-document.querySelectorAll(".project-thumb img[data-img]").forEach(function (img) {
-  var exts = ["png", "jpg", "jpeg", "webp"];
-  var i = 0;
-  function tryNext() {
-    if (i >= exts.length) { img.remove(); return; }
-    img.src = "images/" + img.dataset.img + "." + exts[i++];
-  }
-  img.addEventListener("error", tryNext);
-  tryNext();
-});
-</script>
 </body>
 </html>
